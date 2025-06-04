@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+<!-- HEADER -->
+<header class="border-b border-gray-200 bg-gray-50">
+    <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+      <div class="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
+        <div>
+          <div class="flex items-center space-x-3">
+            <img src="img/japrax logo.jpg" alt="Japrax Tour Guide Logo" class="h-35 w-35 rounded-full shadow-md"/>
+          <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl"><a href ="index.html">JAPRAX TOUR GUIDE</a>
+        </div>
+          <p class="mt-1.5 text-sm text-gray-500">
+            Japrax Tour Guide is here to help you as a tour guide in the Jayapura Area.
+          </p>
+        </div>
+  
+          <a href="about.html"
+            class="inline-block rounded-sm bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700 focus:ring-3 focus:outline-hidden"
+            type="button"
+          >About Us
+            
+        </a>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- END HEADER -->
+
+<!-- TAB -->
+<div>
+    <!-- Mobile Hamburger Menu -->
+  <div class="sm:hidden">
+  <!-- Hamburger Button -->
+  <button id="mobile-menu-button" class="p-2 rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+    <span class="sr-only">Open main menu</span>
+    <!-- Hamburger Icon -->
+    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
+
+  <!-- Mobile Menu (hidden by default) -->
+  <div id="mobile-menu" class="hidden absolute top-16 left-0 right-0 bg-white shadow-lg rounded-b-lg z-50">
+    <div class="px-2 pt-2 pb-3 space-y-1">
+      <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Home</a>
+      <a href="profile.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Tour Destinations</a>
+      <a href="contact.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Toggle mobile menu
+  document.getElementById('mobile-menu-button').addEventListener('click', function() {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+    
+    // Change icon based on menu state
+    const icon = this.querySelector('svg');
+    if (menu.classList.contains('hidden')) {
+      icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />';
+    } else {
+      icon.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />';
+    }
+  });
+  
+  // Close menu when clicking outside
+  document.addEventListener('click', function(event) {
+    const menu = document.getElementById('mobile-menu');
+    const button = document.getElementById('mobile-menu-button');
+    
+    if (!menu.contains(event.target) && !button.contains(event.target)) {
+      menu.classList.add('hidden');
+      button.querySelector('svg').innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />';
+    }
+  });
+</script>
+  
+    <div class="hidden sm:block">
+      <div class="border-b border-gray-200">
+        <nav class="-mb-px flex gap-6 justify-center" aria-label="Tabs">
+          <a
+            href="home.html"
+            class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+          >
+            Home
+          </a>
+  
+          <a
+            href="profile.html"
+            class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+          >
+            Tour Destinations
+          </a>
+  
+          <a
+            href="#"
+            class="shrink-0 border-b-2 border-sky-500 px-1 pb-4 text-sm font-medium text-sky-600"
+                aria-current="page"
+          >
+            Contact Us
+          </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+<!-- END TAB -->
+
+ <!-- CARDS -->
+ <div class="relative block overflow-hidden rounded-lg border border-gray-100 p-6 sm:p-8 lg:p-10 mx-auto max-w-5xl lg:max-w-6xl px-6 md:px-12">
+  <span class="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
+
+  <div class="sm:flex sm:justify-between sm:gap-4">
+      <div>
+          <h3 class="mt-8 text-lg font-bold text-gray-900 sm:text-xl">SAHRUL SETIAWAN</h3>
+          <p class="mt-1 text-xs font-medium text-gray-700">AS A MANAGER</p>
+          <p class="mt-4 text-xs font-medium text-gray-600">Information Systems 2022</p>
+          <p class="mt-1 text-xs font-medium text-gray-600">Cenderawasih University</p>
+      </div>
+
+      <div class="hidden sm:block sm:shrink-0">
+          <img alt="" src="img/syahrul2.jpg" class="size-35 rounded-lg object-cover shadow-xs" />
+      </div>
+  </div>
+
+  <div class="mt-5">
+      <p class="text-sm text-pretty text-gray-1000">
+          I am the Manager of Japrax Tour Guide, a website-based tour guide service that is ready to offer experienced tour guides in the Jayapura Area.🌍✨
+      </p>
+
+      <dl class="mt-6 flex gap-8 sm:gap-12">
+          <div class="flex flex-col items-center text-center">
+              <dt class="text-sm font-medium text-gray-600">Age</dt>
+              <dd class="text-xs text-gray-500">23</dd>
+          </div>
+
+          <div class="flex flex-col items-center text-center">
+              <dt class="text-sm font-medium text-gray-600">Contact</dt>
+              <a href="https://wa.link/cgx5hg" class="text-blue-500 hover:text-blue-700">WhatsApp</a>
+          </div>
+      </dl>
+  </div> 
+</div>
+
+<!-- END CARDS -->
+
+<!-- FOOTER -->
+<footer class="bg-white white:bg-gray-900">
+  <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
+    
+        <div class="flex items-center space-x-3 pt-120">
+          <a href="#"> 
+              <img class="w-auto h-10" src="img/japrax logo.jpg" alt="Japrax Logo"> 
+          </a>
+          <span class="text-xs text-gray-900 sm:text-sm font-normal">JAPRAX TOUR GUIDE</span>
+      </div>          
+      <p class="text-sm text-dark-600 dark:text-dark-300 pt-120">© Copyright 2025.</p>
+
+      <div class="flex -mx-2 pt-120">
+          <a href="#" class="mx-2 text-dark-600 transition-colors duration-300 dark:text-dark-300 hover:text-blue-500 dark:hover:text-blue-400">
+              japraxtourguide@gmail.com
+          </a>
+
+          </div>
+  </div>
+</footer>
+<!-- END FOOTER -->
+</body>
+</html>

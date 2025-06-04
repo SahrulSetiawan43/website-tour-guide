@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+<!-- HEADER -->
+    <header class="border-b border-gray-200 bg-gray-50">
+        <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+          <div class="flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
+            <div>
+              <div class="flex items-center space-x-3">
+                <img src="img/japrax logo.jpg" alt="Japrax Tour Guide Logo" class="h-35 w-35 rounded-full shadow-md"/>
+              <h1 class="text-2xl font-bold text-gray-900 sm:text-3xl"><a href ="index.html">JAPRAX TOUR GUIDE</a>
+            </div>
+              <p class="mt-1.5 text-sm text-gray-500">
+                Japrax Tour Guide is here to help you as a tour guide in the Jayapura Area.
+              </p>
+            </div>
+      
+              <a href="about.html"
+                class="inline-block rounded-sm bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700 focus:ring-3 focus:outline-hidden"
+                type="button"
+              >
+              About Us
+            </a>
+            </div>
+          </div>
+        </div>
+      </header>
+<!-- END HEADER -->
+    
+<!-- TAB -->
+    <div>
+        <div class="sm:hidden">
+          <label for="Tab" class="sr-only">Tab</label>
+      
+          <select id="Tab" class="w-full rounded-md border-gray-200">
+            <option>Home</option>
+            <option>Tour Destinations</option>
+            <option>Contact Us</option>
+          </select>
+        </div>
+      
+        <div class="hidden sm:block">
+          <div class="border-b border-gray-200">
+            <nav class="-mb-px flex gap-6 justify-center" aria-label="Tabs">
+              <a
+                href="home.html"
+                class="shrink-0 border-b-2 border-sky-500 px-1 pb-4 text-sm font-medium text-sky-600"
+                aria-current="page"
+              >
+                Home
+              </a>
+      
+              <a
+                href="profile.html"
+                class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              >
+                Tour Destinations
+              </a>
+      
+              <a
+                href="contact.html"
+                class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700"
+              >
+                Contact Us
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+<!-- END TAB -->
+
+<!-- OUR TEAM -->
+    <section class="bg-white white:bg-gray-900">
+      <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-2xl font-semibold text-center text-dark-800 capitalize lg:text-3xl dark:text-dark">Our Team</h1>
+    
+        <p class="max-w-2xl mx-auto my-6 text-center text-dark-500 dark:text-dark-300">
+          Behind the Japrax Tour Guide service, there is our team ready to provide the best travel experience. With high
+          dedication, we are here to ensure that every trip you make at Japrax becomes more exciting, comfortable, and
+          memorable. Get to know our team who are always ready to help and provide the best service!
+        </p>
+    
+        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="img/syahrul2.jpg" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white">Sahrul
+              Setiawan</h1>
+            <p class="mt-2 text-dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Manager</p>
+          </div>
+    
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="img/Sembiring.jpg" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white">Christian
+              I. Sembiring</h1>
+            <p class="mt-2 text dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Programmer</p>
+          </div>
+    
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="img/irsan.jpg" alt="">
+            <h1
+              class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white text-center">
+              Irsan Ariansyah</h1>
+            <p class="mt-2 text dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Programmer</p>
+          </div>
+    
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="img/Sertia.jpg" alt="">
+            <h1
+              class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white text-center">
+              Sertia Agustina Rumere</h1>
+            <p class="mt-2 text dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Programmer</p>
+          </div>
+    
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="img/Dika.jpg" alt="">
+            <h1
+              class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white text-center">
+              Vincentius M. Manik</h1>
+            <p class="mt-2 text dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Analysis and UI/UX Design
+            </p>
+          </div>
+    
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="img/Devi.jpg" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white">Devi
+              Mileni T. Kaumfu </h1>
+            <p class="mt-2 text dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Analysis and UI/UX Design
+            </p>
+          </div>
+    
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white">Amir
+              Kogoya</h1>
+            <p class="mt-2 text dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Analysis and UI/UX Design
+            </p>
+          </div>
+    
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="img/Rafi.jpg" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white">Rafi
+              Achmad Uwen</h1>
+            <p class="mt-2 text dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Documentation</p>
+          </div>
+        </div>
+    
+        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3 justify-center">
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="img/Putri.jpg" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white">Putri Dwi
+              Febriana</h1>
+            <p class="mt-2 text dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Documentation</p>
+          </div>
+    
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="img/Dinda.jpg" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white">Dinda
+              Aprilia S. Putri</h1>
+            <p class="mt-2 text dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Documentation</p>
+          </div>
+    
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300" src="img/Marten.jpg" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-dark group-hover:text-white">Marten
+              Luter Kambuaya</h1>
+            <p class="mt-2 text dark-500 capitalize dark:text-dark-300 group-hover:text-dark-300">Documentation</p>
+          </div>
+        </div>
+    </section>
+<!-- END OUR TEAM-->
+
+<!-- FOOTER -->
+<footer class="bg-white white:bg-gray-900">
+  <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 sm:space-y-0 sm:flex-row">
+    
+        <div class="flex items-center space-x-3 pt-120">
+          <a href="#"> 
+              <img class="w-auto h-10" src="img/japrax logo.jpg" alt="Japrax Logo"> 
+          </a>
+          <span class="text-xs text-gray-900 sm:text-sm font-normal">JAPRAX TOUR GUIDE</span>
+      </div>          
+      <p class="text-sm text-dark-600 dark:text-dark-300 pt-120">© Copyright 2025.</p>
+
+      <div class="flex -mx-2 pt-120">
+          <a href="#" class="mx-2 text-dark-600 transition-colors duration-300 dark:text-dark-300 hover:text-blue-500 dark:hover:text-blue-400">
+              japraxtourguide@gmail.com
+          </a>
+
+          </div>
+  </div>
+</footer>
+<!-- END FOOTER --> 
+</body>
+</html>
