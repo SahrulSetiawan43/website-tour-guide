@@ -20,10 +20,18 @@ Website ini menampilkan informasi terkait wisata dan pemandu lokal yang ada di w
 ![Anggota Kelompok](img/Marten.jpg)
 ![Anggota Kelompok](img/Putri.jpg)
 ![Anggota Kelompok](img/Rafi.jpg)
-![Anggota Kelompok](img/Putri.jpg)
 ![Anggota Kelompok](img/Sertia.jpg)
 ![Anggota Kelompok](img/syahrul2.jpg)
 ![Anggota Kelompok](img/Sembiring.jpg)
+![Profile Tour Guide](img/Andio.jpg)
+![Profile Tour Guide](img/iba.jpg)
+![Profile Tour Guide](img/cendol.jpg)
+![Profile Tour Guide](img/erpan.jpg)
+![Profile Tour Guide](img/teman_putri.jpg)
+![Profile Tour Guide](img/saloko.jpg)
+![Profile Tour Guide](img/kia.jpg)
+![Profile Tour Guide](img/rehan.jpg)
+![Profile Tour Guide](img/harits.jpg)
 
 
 
