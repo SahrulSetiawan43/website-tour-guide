@@ -1,5 +1,24 @@
-# Website Tour Guide Wilayah Kota Jayapura
+![pantai_baseg](https://github.com/user-attachments/assets/3aa7d215-4428-4e98-a840-0c510f38d210)# Website Tour Guide Wilayah Kota Jayapura
 
 Website ini menampilkan informasi terkait wisata dan pemandu lokal yang ada di wilayah kota jayapura. Wisatawan dapat memesan tour guide sesuai kebutuhan mereka. Website ini juga menampilkan informasi wisata yang dapat di pilih oleh wisatawan
 
 ![Icon Whatsapp](img/291695_whatsapp_logo_chat_message_bubble_icon.png)
+![Icon Email](img/308241_email_icon.png)
+![Destinasi Wisata](img/Bukit_Kolang.jpg)
+![Destinasi Wisata](img/Cemara_Holtekamp.png)
+![Destinasi Wisata](img/Bukit_Tungkuwiri.jpg)
+![Destinasi Wisata](img/Jayapura_City.jpg)
+![Destinasi Wisata](img/Danau_Emfote.jpg)
+![Destinasi Wisata](img/macartur.jpg)
+![Destinasi Wisata](img/pantai_baseg.jpg)
+![Destinasi Wisata](img/Pantai_Holl.jpg)
+![Destinasi Wisata](img/pasir_2.jpg)
+![Anggota Kelompok](img/Devi.jpg)
+![Anggota Kelompok](img/Dika.jpg)
+![Anggota Kelompok](img/Dinda.jpg)
+![Anggota Kelompok](img/irsan.jpg)
+
+
+
+
+
