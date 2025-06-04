@@ -4,6 +4,7 @@ Website ini menampilkan informasi terkait wisata dan pemandu lokal yang ada di w
 
 ![Icon Whatsapp](img/291695_whatsapp_logo_chat_message_bubble_icon.png)
 ![Icon Email](img/308241_email_icon.png)
+![Icon Web](img/japrax logo.jpg)
 ![Destinasi Wisata](img/Bukit_Kolang.jpg)
 ![Destinasi Wisata](img/Cemara_Holtekamp.png)
 ![Destinasi Wisata](img/Bukit_Tungkuwiri.jpg)
