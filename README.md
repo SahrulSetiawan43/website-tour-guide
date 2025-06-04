@@ -1,4 +1,4 @@
-![pantai_baseg](https://github.com/user-attachments/assets/3aa7d215-4428-4e98-a840-0c510f38d210)# Website Tour Guide Wilayah Kota Jayapura
+# Website Tour Guide Wilayah Kota Jayapura
 
 Website ini menampilkan informasi terkait wisata dan pemandu lokal yang ada di wilayah kota jayapura. Wisatawan dapat memesan tour guide sesuai kebutuhan mereka. Website ini juga menampilkan informasi wisata yang dapat di pilih oleh wisatawan
 
