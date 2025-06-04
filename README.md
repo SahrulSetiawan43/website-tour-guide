@@ -17,6 +17,14 @@ Website ini menampilkan informasi terkait wisata dan pemandu lokal yang ada di w
 ![Anggota Kelompok](img/Dika.jpg)
 ![Anggota Kelompok](img/Dinda.jpg)
 ![Anggota Kelompok](img/irsan.jpg)
+![Anggota Kelompok](img/Marten.jpg)
+![Anggota Kelompok](img/Putri.jpg)
+![Anggota Kelompok](img/Rafi.jpg)
+![Anggota Kelompok](img/Putri.jpg)
+![Anggota Kelompok](img/Sertia.jpg)
+![Anggota Kelompok](img/syahrul2.jpg)
+![Anggota Kelompok](img/Sembiring.jpg)
+
 
 
 
